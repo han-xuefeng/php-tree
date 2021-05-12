@@ -1,0 +1,23 @@
+{
+    "name": "han-xuefeng/php-tree",
+    "type": "library",
+    "description": "无限级数组转成树形数组,树形数组转成无限极列表数组",
+    "keywords": ["php","tree","php-tree"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Han Xuefeng",
+            "email": "han-xuefeng@hotmail.com",
+            "homepage": "https://github.com/han-xuefeng"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Cron\\": "src/"
+        }
+    }
+}
